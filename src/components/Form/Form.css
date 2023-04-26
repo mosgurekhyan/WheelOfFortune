@@ -1,0 +1,46 @@
+.formDiv {
+    height: 150px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+}
+
+input {
+    outline: none;
+    background-color: rgb(50, 210, 162);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: teal;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .8s;
+}
+
+button:hover, .inp:hover {
+    cursor: pointer;
+}
+
+h2 {
+    color: tomato;
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
